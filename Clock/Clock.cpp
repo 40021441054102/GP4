@@ -84,19 +84,19 @@
                 //-- Create Point for Centering Text
                 RKGPoint center_text;
                 if (angle <= 0 && angle > -90) { //-- 1
-                    center_text.x = center_hour.x - 15;
-                    center_text.y = center_hour.y - 5;
+                    center_text.x = center_hour.x - 20;
+                    center_text.y = center_hour.y;
                 }
                 if  (angle <= -90 && angle > -180) { //-- 2
-                    center_text.x = center_hour.x + 10;
+                    center_text.x = center_hour.x + 5;
                     center_text.y = center_hour.y + 5;
                 }
                 if (angle <= -180 && angle > -270) { //-- 3
-                    center_text.x = center_hour.x + 7;
+                    center_text.x = center_hour.x + 10;
                     center_text.y = center_hour.y - 5;
                 }
                 if (angle <= 90 && angle > 0) { //-- 4
-                    center_text.x = center_hour.x - 7;
+                    center_text.x = center_hour.x - 10;
                     center_text.y = center_hour.y - 10;
                 }
                 center_text.z = 0;
@@ -138,19 +138,19 @@
                 //-- Create Point for Centering Text
                 RKGPoint center_text;
                 if (angle <= 0 && angle > -90) { //-- 1
-                    center_text.x = center_minute.x - 15;
-                    center_text.y = center_minute.y - 5;
+                    center_text.x = center_minute.x - 10;
+                    center_text.y = center_minute.y;
                 }
                 if  (angle <= -90 && angle > -180) { //-- 2
-                    center_text.x = center_minute.x + 10;
-                    center_text.y = center_minute.y + 5;
+                    center_text.x = center_minute.x + 5;
+                    center_text.y = center_minute.y + 15;
                 }
                 if (angle <= -180 && angle > -270) { //-- 3
-                    center_text.x = center_minute.x + 7;
+                    center_text.x = center_minute.x + 10;
                     center_text.y = center_minute.y - 5;
                 }
                 if (angle <= 90 && angle > 0) { //-- 4
-                    center_text.x = center_minute.x - 7;
+                    center_text.x = center_minute.x - 10;
                     center_text.y = center_minute.y - 10;
                 }
                 center_text.z = 0;
@@ -192,19 +192,19 @@
                 //-- Create Point for Centering Text
                 RKGPoint center_text;
                 if (angle <= 0 && angle > -90) { //-- 1
-                    center_text.x = center_second.x - 15;
-                    center_text.y = center_second.y - 5;
+                    center_text.x = center_second.x - 20;
+                    center_text.y = center_second.y;
                 }
                 if  (angle <= -90 && angle > -180) { //-- 2
-                    center_text.x = center_second.x + 10;
-                    center_text.y = center_second.y + 5;
+                    center_text.x = center_second.x + 5;
+                    center_text.y = center_second.y + 15;
                 }
                 if (angle <= -180 && angle > -270) { //-- 3
-                    center_text.x = center_second.x + 7;
+                    center_text.x = center_second.x + 10;
                     center_text.y = center_second.y - 5;
                 }
                 if (angle <= 90 && angle > 0) { //-- 4
-                    center_text.x = center_second.x - 7;
+                    center_text.x = center_second.x - 10;
                     center_text.y = center_second.y - 10;
                 }
                 center_text.z = 0;
